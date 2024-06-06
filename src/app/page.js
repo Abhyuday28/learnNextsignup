@@ -22,7 +22,12 @@ export default function Home() {
 
   <h2>Login with google</h2>
 
-  <button onClick={()=>{signIn("google")}}><FcGoogle />Login</button>
+  <button onClick={()=>{signIn("google")}}>
+  <div>
+    <FcGoogle/>
+    Login
+    </div>
+    </button>
   </>
   );
 }
